@@ -1,0 +1,4 @@
+#!/bin/bash
+if [[ ! -z "$COMMAND_HOURLY" ]]; then
+    /root/run_command.sh "$COMMAND_HOURLY"
+fi

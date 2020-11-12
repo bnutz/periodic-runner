@@ -1,0 +1,4 @@
+#!/bin/bash
+if [[ ! -z "$COMMAND_WEEKLY" ]]; then
+    /root/run_command.sh "$COMMAND_WEEKLY"
+fi
