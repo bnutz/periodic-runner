@@ -38,7 +38,7 @@ COPY run_command.sh .
 RUN chmod +x run_command.sh
 
 # # Reference: https://unix.stackexchange.com/q/412805
-# CMD crond -l 2 -f
+CMD crond -l 2 -f
 
 # For debugging
-CMD tail -f /dev/null
+# CMD tail -f /dev/null
